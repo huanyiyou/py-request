@@ -1,0 +1,17 @@
+{
+  "base_url": "https://api.example.com",
+  "endpoints": {
+    "查询用户": {
+      "url": "/v1/users"
+    },
+    "查询订单": {
+      "url": "/v1/orders"
+    },
+    "查询商品": {
+      "url": "/v1/products"
+    },
+    "查询单个订单": {
+      "url": "/v1/orders/{order_id}"
+    }
+  }
+}
